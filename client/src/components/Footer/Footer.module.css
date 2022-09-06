@@ -1,0 +1,14 @@
+footer {
+    margin-top: auto;
+}
+
+.FooterText {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    .FooterText {
+        font-size: 12px;
+    }
+}

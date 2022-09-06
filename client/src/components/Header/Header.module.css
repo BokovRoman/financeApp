@@ -1,0 +1,23 @@
+.LogoContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.LogoContainer>span {
+    font-size: 48px;
+    margin-top: -7px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .LogoContainer>span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .LogoContainer>img {
+        width: 150px;
+    }
+}

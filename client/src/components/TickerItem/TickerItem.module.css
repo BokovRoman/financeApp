@@ -1,0 +1,96 @@
+.Table {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid #6999e0;
+}
+
+.Table>td {
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Table>td:first-child {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.Table>td:last-child {
+    width: auto;
+}
+
+.Ticker {
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.Positive {
+    color: #137333;
+    background: #32d661;
+    border-radius: 10px;
+}
+
+.Negative {
+    color: rgb(153, 0, 0);
+    background: #d4b1b1;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Table>td:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Table>td {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .Table>td:nth-child(7) {
+        display: none;
+    }
+
+    .Table>td {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Table>td {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Table>td:nth-child(4) {
+        display: none;
+    }
+
+    .Table>td {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Table>td:nth-child(6) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Table>td {
+        width: 25%;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Table>td:first-child {
+        display: none;
+    }
+}
