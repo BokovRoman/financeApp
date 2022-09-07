@@ -11,7 +11,7 @@ import TickerItem from "../TickerItem";
 import { Audio } from "react-loader-spinner";
 import styles from "./TickersList.module.css";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://financeapp2022.herokuapp.com/");
 
 const TickersList = () => {
   const dispatch = useDispatch();
